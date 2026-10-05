@@ -1,12 +1,5 @@
 <?php
-/**
- * FINAL VERIFICATION: Admin Dashboard Real Data Only
- * 
- * This report confirms that:
- * 1. All test data has been removed
- * 2. Admin dashboard shows only real data
- * 3. Database is clean and ready for production
- */
+
 
 require_once 'config/db.php';
 
@@ -188,8 +181,7 @@ require_once 'config/db.php';
         <div class="status-box">
             <h3>🎉 System Status: CLEAN & PRODUCTION READY</h3>
             <p>
-                All test data has been removed. The admin dashboard now displays <strong>only real, verified data</strong> from the database.
-                No fake evaluations, no test entries, no placeholder data.
+               
             </p>
         </div>
 
